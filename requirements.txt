@@ -1,0 +1,92 @@
+# Multi-Agent Market Research System Requirements
+
+# Core Framework
+langchain
+langchain-community
+langchain-core
+
+# LLM Integration
+google-generativeai
+
+# Web Interface
+streamlit
+streamlit-extras
+
+# Web Search & Scraping
+requests
+beautifulsoup4
+lxml
+
+# Data Processing
+pandas
+numpy
+
+# Environment Management
+python-dotenv
+
+# File Processing
+markdown
+PyYAML
+python-json-logger
+
+# Visualization (for Streamlit charts and architecture diagrams)
+plotly
+matplotlib
+
+# API Integration for Dataset Discovery
+kaggle
+huggingface-hub
+PyGithub
+
+# Date and Time Processing
+python-dateutil
+
+# HTTP Client
+httpx
+
+# Text Processing
+nltk
+textblob
+
+# Progress Bars for CLI
+tqdm
+
+# Testing (Optional - for development)
+pytest
+pytest-asyncio
+
+# Logging
+colorlog
+
+# File Type Detection
+python-magic
+
+# JSON Schema Validation
+jsonschema
+
+# Async HTTP Client
+aiohttp
+
+# Streamlit Components
+streamlit-aggrid
+streamlit-option-menu
+
+# PDF Processing (if needed for report generation)
+reportlab
+
+# Excel File Processing
+openpyxl
+
+# URL Processing
+urllib3
+
+# Configuration File Processing
+configparser
+
+# Memory Optimization
+memory-profiler
+
+# Development Dependencies (Optional)
+black
+flake8
+mypy
