@@ -1,5 +1,3 @@
-Here’s a draft README for **Deep-Research-Sequential-Agent** based on what I found. Feel free to tell me if you'd like changes (tone, sections, more detail, etc.).
-
 ---
 
 # Deep-Research-Sequential-Agent
@@ -196,4 +194,4 @@ Specify your license here (e.g. MIT, Apache 2.0 etc.). If not yet decided, inclu
 
 ---
 
-If you like, I can generate a ready-to-paste README.md with this content (with your preferred license and any details you want added). Would you want me to prepare that?
+
