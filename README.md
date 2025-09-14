@@ -138,6 +138,8 @@ Here’s a high-level view of the folders & what they contain:
 4. **Reporting Agent**: Generates well-structured report, use-cases, references, maybe graphs, summary.
 5. **Output**: Report stored in `outputs/`, possibly also viewable via the Streamlit UI.
 
+
+
 ---
 
 ## Configuration
@@ -195,3 +197,18 @@ Specify your license here (e.g. MIT, Apache 2.0 etc.). If not yet decided, inclu
 ---
 
 
+## 🚀 Agent Pipeline Flow
+
+```mermaid
+flowchart TD
+
+    A[User Input<br/>(Company, Industry, Depth, Description)] --> B[System Validation<br/>Config + Requirements]
+    B --> C[Agent Initialization<br/>ResearchAgent + DatasetFinder]
+    
+    C --> D[Stage 1: Research Agent<br/>Company + Industry Analysis]
+    D --> E[Stage 2: Dataset Discovery<br/>Search across Kaggle, HuggingFace, etc.]
+    E --> F[Stage 3: Use Case Generation<br/>5–7 AI/ML Opportunities]
+    F --> G[Stage 4: Report Generation<br/>Market + Dataset Reports]
+    
+    G --> H[Outputs Saved<br/>reports/, datasets/, execution_history.json]
+    H --> I[Interface<br/>CLI or Streamlit Dashboard]
