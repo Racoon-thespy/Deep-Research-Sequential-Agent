@@ -202,14 +202,13 @@ Specify your license here (e.g. MIT, Apache 2.0 etc.). If not yet decided, inclu
 ```mermaid
 flowchart TD
 
-    A[User Input\n(Company, Industry, Depth, Description)] --> B[System Validation\nConfig + Requirements]
-    B --> C[Agent Initialization\nResearchAgent + DatasetFinder]
+    A([User Input: Company, Industry, Depth, Description]) --> B([System Validation: Config + Requirements])
+    B --> C([Agent Initialization: ResearchAgent + DatasetFinder])
     
-    C --> D[Stage 1: Research Agent\nCompany + Industry Analysis]
-    D --> E[Stage 2: Dataset Discovery\nSearch across Kaggle, HuggingFace, etc.]
-    E --> F[Stage 3: Use Case Generation\n5–7 AI/ML Opportunities]
-    F --> G[Stage 4: Report Generation\nMarket + Dataset Reports]
+    C --> D([Stage 1: Research Agent - Company & Industry Analysis])
+    D --> E([Stage 2: Dataset Discovery - Kaggle, HuggingFace, etc.])
+    E --> F([Stage 3: Use Case Generation - 5 to 7 AI/ML Opportunities])
+    F --> G([Stage 4: Report Generation - Market & Dataset Reports])
     
-    G --> H[Outputs Saved\nreports/, datasets/, execution_history.json]
-    H --> I[Interface\nCLI or Streamlit Dashboard]
-
+    G --> H([Outputs Saved: reports/, datasets/, execution_history.json])
+    H --> I([Interface: CLI or Streamlit Dashboard])
